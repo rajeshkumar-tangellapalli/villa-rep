@@ -1,0 +1,722 @@
+body {
+    margin: 0px;
+    font-family: 'system-ui';
+}
+/* .villa-app {
+    padding: 5px;
+} */
+@media screen and (min-width:400px) {
+    .contact-container {
+        /* border-bottom: 1px solid lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        padding-left: 20px; */
+        display: none;
+    }
+    .menu-btn-mob-view {
+        display: block;
+    }
+    .links-schedule-container {
+        display: none;
+    }
+    .offer-text-container {
+        margin-left: 100px;
+        width: 200px;
+    }
+    .offer-text {
+        color: white;
+        font-size: 30px;
+    }
+    .featured-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .featured-card-description {
+        margin-top: 100px;
+        padding: 20px;
+    }
+    .flat-details-card {
+        box-shadow: 0px 0px 7px 7px lightgray;
+        border-radius: 10px;
+        padding: 30px;
+        width: 400px;
+    }
+    .close-view-section {
+        background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-bg.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: 100px;
+    }
+    .cvs-image-for-mobile {
+        background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-frame.jpg");
+        background-size: cover;
+        width: 90%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .cvs-image {
+        display: none;
+    }
+    .achivements-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 400px;
+        margin-top: 100px;
+    }
+    .best-deal-section {
+        margin-top: 100px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bd-heading-button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .bd-button {
+        height: 40px;
+        width: 120px;
+        background-color: #1e1e1e;
+        color: white;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 0px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .bd-flat-details {
+        padding: 20px;
+        box-shadow: 0px 0px 5px 5px lightgray;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    /* .bd-descriprion {
+        width: 450px;
+    } */
+    .properties-cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .property-card {
+        background-color: #fafafa;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .card-image {
+        height: 300px;
+        width: 400px;
+        border-radius: 10px;
+    }
+    .contact-us-section-2 {
+        margin-top: -200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    iframe {
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 30px;
+        width: 400px;
+        height: 300px;
+    }
+    .c-us-icon-num-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 0px 5px 5px lightgray;
+        padding: 10px;
+        border-radius: 5px;
+        width: 150px;
+    }
+    .form-container {
+        padding: 20px;
+        box-shadow: 0px 0px 10px 3px lightgray;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 50px;
+        width: 400px;
+    }
+    .contact-us-section-3 {
+        height: 100px;
+        background-color: #1e1e1e;
+        color: white;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .contact-container {
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        padding-left: 20px;
+    }
+    .menu-btn-mob-view {
+        display: none;
+    }
+    .links-schedule-container {
+        display: flex;
+        align-items: center;
+    }
+    .featured-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px;
+        margin-top: 100px;
+    }
+    .featured-card-description {
+        padding: 20px;
+    }
+    .flat-details-card {
+        box-shadow: 0px 0px 7px 7px lightgray;
+        border-radius: 10px;
+        padding: 30px;
+        width:250px;
+    }
+    .close-view-section {
+        background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-bg.jpg");
+        background-size: cover;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: 100px;
+    }
+    .offer-text-container {
+        margin-left: 200px;
+        width: 200px;
+    }
+    .offer-text {
+        color: white;
+    }
+    .cvs-image {
+        background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-frame.jpg");
+        background-size: cover;
+        height: 400px;
+        width: 1000px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -200px;
+        margin-left: 130px;
+    }
+    .cvs-image-for-mobile {
+        display: none;
+    }
+    .achivements-section {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .best-deal-section {
+        margin-top: 50px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+    .bd-heading-button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bd-button {
+        height: 50px;
+        width: 150px;
+        background-color: #1e1e1e;
+        color: white;
+        font-size: 18px;
+        border-radius: 5px;
+        border: 0px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .bd-fd-card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .bd-flat-details {
+        display: inline-block;
+        padding: 20px;
+        box-shadow: 0px 0px 5px 5px lightgray;
+        border-radius: 5px;
+        width: 250px;
+    }
+    .bd-descriprion {
+        width: 250px;
+    }
+    .properties-cards-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 80px;
+    }
+    .property-card {
+        background-color: #fafafa;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .card-image {
+        height: 200px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .contact-us-section-2 {
+        margin-top: -200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    iframe {
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 30px;
+        width: 500px;
+        height: 400px;
+    }
+    .c-us-icon-num-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 0px 5px 5px lightgray;
+        padding: 10px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    .form-container {
+        padding: 20px;
+        box-shadow: 0px 0px 10px 3px lightgray;
+        background-color: white;
+        margin-left: 100px;
+        margin-top: 0px;
+        width: 330px;
+        border-radius: 10px;
+    }
+    .contact-us-section-3 {
+        height: 100px;
+        background-color: #1e1e1e;
+        color: white;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+}
+.email-address-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.email-container {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.address-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon {
+    width:20px;
+    margin-right: 15px;
+    color: orange;
+}
+.email-address-text {
+    color: gray;
+    font-size: 15px;
+}
+.sm-icons-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+.sm-icon-bg {
+    background-color: lightgray;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.sm-icon-bg:hover {
+    background-color: #f35525;
+}
+.sm-icon {
+    height: 15px;
+    width: 15px;
+}
+/* .body-container {} */
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 1px 2px 10px lightgray;
+    z-index: 0;
+}
+.app-title {
+    font-size: 30px;
+}
+
+.header-links {
+    margin-right: 30px;
+}
+.link {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.link:hover {
+    color: #f35525;
+}
+.schedul-container {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    border-radius: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+.schedul-icon-container {
+    background-color: #f35525;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.schedul-text {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    transition: 0.4s;
+}
+.schedul-text:hover {
+    color: #f35525;
+}
+.offer-container {
+    background-image: url('https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-01.jpg');
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offer-area {
+    background-color: white;
+    display: inline;
+    padding: 10px;
+}
+.featured-image {
+    background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/featured.jpg");
+    height: 400px;
+    width: 350px;    
+}
+.featured-image-icon-container {
+    background-color: #f35525;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    margin-left: -50px;
+}
+.featured-image-icon {
+    height: 40px;
+    width: 40px;
+}
+.featured-text {
+    color: #f35525;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+.featured-card-heading {
+    font-size: 30px;
+}
+.fc-question-container {
+    background-color: #fafafa;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fc-question {
+    font-size: 18px;
+    font-weight: 500;
+}
+.fc-answer {
+    font-size: 17px;
+    font-weight: 400px;
+}
+.flat-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fd-icon {
+    height: 60px;
+    width: 60px;
+    margin-right: 30px;
+}
+.fd-heading {
+    font-size: 20px;
+    margin: 0;
+}
+.fd-paragraph {
+    font-size: 15px;
+    margin: 0;
+}
+
+.cvs-paragraph {
+    margin-top: 130px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #f35525;
+}
+.cvs-heading {
+    margin-top: 5px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.cvs-link-container {
+    color: #fafafa;
+    background-color: #f35525;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.cvs-link {
+    background-color: #fafafa;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cvs-icon {
+    height: 20px;
+    width: 20px;
+}
+.achivement-card {
+    background-color: #ffeee9;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.achivement-count {
+    color: #f35525;
+    margin-right: 20px;
+}
+.achivement {
+    font-size: 18px;
+}
+.best-deal-text {
+    color: #f35525;
+    font-size: 15px;
+    font-weight: bold;
+}
+    /* fd means flat details */
+
+.bd-fd-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.bd-image {
+    width: 450px;
+}
+.properties-section {
+    margin-top: 100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.properties-text {
+    color: #f35525;
+    font-weight: bold;
+}
+.property-sec-heading {
+    font-size: 30px;
+}
+
+.card-villa-type-price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-villa-type {
+    background-color: #ffeee9;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-weight: 500px;
+    font-size: 15px;
+}
+.card-villa-price {
+    color: #f35525;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-villa-heading {
+    font-size: 25px;
+}
+.card-villa-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.villa-detail-text {
+    margin: 0px;
+}
+.card-button {
+    background-color: #1e1e1e;
+    color: white;
+    border: 0px;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card-button:hover {
+    background-color: #f35525;
+}
+.contact-us-container {
+    background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/contact-bg.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+.contact-us-text {
+    color: #f35525;
+    font-weight: bold;
+}
+.contact-us-heading {
+    font-size: 25px;
+    color: white;
+}
+
+.c-us-mobile-email-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-input {
+    height: 30px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #fafafa;
+    border: none;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.send-button {
+    display: block;
+    margin-top: 10px;
+    height: 40px;
+    width: 140px;
+    border-radius: 50px;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.send-button:hover {
+    background-color: #f35525;
+}
+.form-input-name {
+    margin-left: 5px;
+}
